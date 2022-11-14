@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.cdnfonts.com/css/basketball" rel="stylesheet">
+    <title>Basketball Game</title>
+</head>
+
+<body>
+    <div class="main-title"> <span class="underline">LET'S PLAY</span></div>
+    <div class="container">
+        <div class="home-score">
+            <h3 class="home-title">HOME</h3>
+            <div class="home-score-background">
+                <h3 id="score-home-el">0</h3>
+            </div>
+            <button class="btn" id="onepoint-home-el" onclick="onePointHome()">+1</button>
+            <button class="btn" id="twopoint-home-el" onclick="twoPointHome()">+2</button>
+            <button class="btn" id="threepoint-home-el" onclick="threePointHome()">+3</button>
+
+        </div>
+        <div class="guest-score">
+            <h3 class="guest-title">GUEST</h3>
+            <div class="guest-score-background">
+                <h3 id="score-guest-el">0</h3>
+            </div>
+            <button class="btn" id="onepoint-guest-el" onclick="onePointGuest()">+1</button>
+            <button class="btn" id="twopoint-guest-el" onclick="twoPointGuest()">+2</button>
+            <button class="btn" id="threepoint-guest-el" onclick="threePointGuest()">+3</button>
+
+        </div>
+
+    </div>
+    <p id="countdown"></p>
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+body {
+    padding-top: 20px;
+    background-image: url("https://images.unsplash.com/photo-1590227632180-80a3bf110871?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=615&q=80");
+    background-size: cover;
+}
+
+@font-face {
+    src: @import url('https://fonts.cdnfonts.com/css/basketball');
+}
+
+.main-title {
+    text-align: center;
+    color: #F94F6D;
+    font-family:'Basketball', sans-serif;
+    font-size: 100px;
+    padding: 20px;
+    text-shadow: 2px 2px 1px rgb(255, 255, 255);
+}
+
+.underline {
+    border-bottom: 4px solid #EEEEEE;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.home-title, .guest-title {
+   
+    width: 150px;
+    height: 36px;
+    left: 85px;
+    top: 68px;
+    margin: 0 auto;
+    text-align: center;
+    color: #EEEEEE;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 15px;
+    text-shadow: 3px 3px 1px #080001;
+}
+
+.home-score-background, .guest-score-background {
+    left: 82px;
+    top: 125px;
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    border-radius: 5px;
+}
+
+#score-home-el, #score-guest-el {
+    width: 117px;
+    height: 120px;
+    margin: 0 auto;
+    top: 5px;
+    left: 13px;
+    font-weight: 400;
+    font-size:130px;
+    text-align: center;
+    color: #F94F6D;
+    font-family:'Basketball', sans-serif;
+}
+
+.btn {
+    background: none;
+    border: 2px solid #EEEEEE;
+    color: #EEEEEE;
+    padding: 5px 9px;
+    margin-top: 15px;
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size: 18px;
+    text-shadow: 1px 1px 2px #080001;
+    border
+}
+.btn:hover {
+    color: #b1aaaa;
+    font-size: 19px;
+}
+
+p {
+    color: #F94F6D;
+    font-family:'Basketball', sans-serif;
+    background: #080001;
+    width: 220px;
+    height: 100px;
+    font-size: 70px;
+    display: inline-flex;
+    margin-left: 40%;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
